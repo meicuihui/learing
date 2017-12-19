@@ -1,6 +1,6 @@
 # 1.JAVA基础
 # 2.设计模式23种
-## 单例
+## [单例](https://github.com/SbyXlmm/learing/blob/master/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 ## 观察者
 ## 工厂
 ## 建造者
