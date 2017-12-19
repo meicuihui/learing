@@ -13,6 +13,7 @@
 # 4.Android
 ## A跳到B生命周期变换
 ## 横屏切换竖屏
+## [性能优化](https://github.com/SbyXlmm/learing/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
 ## 自定义控件流程 
 ## 事件派发拦截
 ## 内存泄漏原理
