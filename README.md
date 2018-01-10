@@ -2,7 +2,7 @@
 # 2.设计模式23种
 ## [单例](https://github.com/SbyXlmm/learing/blob/master/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 ## 观察者
-## 工厂
+## [工厂](https://github.com/SbyXlmm/learing/blob/master/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
 ## 建造者
 ## 责任链
 ## 适配器
