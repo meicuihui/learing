@@ -1,2 +1,2 @@
-# [looper](http://weyye.me/detail/android-source-activity-oncreate/)
+# 参见weyye[looper](http://weyye.me/detail/android-source-activity-oncreate/)
 
