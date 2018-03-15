@@ -16,3 +16,8 @@
 * git push -u origin master
 * …or import code from another repository
 * You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+***
+* 查看用户名和邮箱地址 `git config user.name`
+
+* 修改用户名 `git config --global user.name "username"`
+
