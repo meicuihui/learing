@@ -22,7 +22,16 @@
 * 参数解释：  
 -i  代表输入待处理的文件  
 ### 视频压缩，降低分辨率
-`ffmpeg -i in.mp4 -vf scale=360:640 -acodec aac -vcodec h264 out.mp4`
+`ffmpeg -i v1.mp4 -vf scale=360:640 -acodec aac -vcodec h264 out.mp4`  
 -i 代表输入，  
 -vf 的全称是video filter，即：视频滤镜，缩放其实就是给视频添加一个滤镜。  
 scale=360:640 scale是一种滤镜，缩放滤镜，格式是：scale=width:height，其中，width和height分别是处理后的宽和高
+### 视频旋转
+`ffmpeg -i v1.mp4 -vf rotate=PI/2:ow=1080:oh=1920 out.mp4`
+* 参数解释：  
+rotate=PI/2  rotate是旋转滤镜，后面的“PI/2”旋转角度（正数代表顺时针），这里是90度    
+rotate除了指定旋转角度的参数外，还有其他一些参数：  
+ow 全称是out width，输出视频的宽度，如果不指定，默认是输入视频的宽度  
+oh 全称是out height，输出视频的高度，如果不指定，默认是输入视频的高度
+### 查看视频的详细信息
+`ffmpeg -i v1.mp4 ` 
