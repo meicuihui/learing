@@ -1,6 +1,8 @@
 修改迁移表
 * php artisan make:migration alter_tablename_table --table=tablename
 * Schema::table('users', function ($table) { $table->string('title')->default('1')-> change(); }) 
+* $table->string('title')->default('1')-> change(); 修改表字段
+* $table->string('title')->after("name")->default('1')-> change(); 新增表字段,且新增表字段在name之后
 * php artisan migrate
 
 * 创建表
