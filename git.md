@@ -20,6 +20,6 @@
 * 查看用户名和邮箱地址 `git config user.name`
 
 * 修改用户名 `git config --global user.name "username"`
-* 拉远程代码`git pull origin master
-`
+* 拉远程代码`git pull origin master`
+* 查看代码提交情况`git log`
 
