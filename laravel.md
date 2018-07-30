@@ -18,7 +18,7 @@ create指定表名字 table是否生成新的表
 * php artisan migrate:refresh --seed 回滚
 
 重新生成ide hlep代码
-* php artisan ide-helper:generate
+* php artisan ide-helper:generate  
 发邮件问题
 cURL error 60 
 解决，证书问题
