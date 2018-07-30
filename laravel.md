@@ -19,4 +19,11 @@ create指定表名字 table是否生成新的表
 
 重新生成ide hlep代码
 * php artisan ide-helper:generate
+发邮件问题
+cURL error 60 
+解决，证书问题
+* [下载证书](https://pan.baidu.com/s/1e-UgJrg-3vtB95tCXKv2IA)
+* 放在php\extras\ssl目录下
+* 配置到php.ini 'curl.cainfo ="C:\Runing\php\extras\ssl\cacert.pem"'
+* 重启服务器
 
