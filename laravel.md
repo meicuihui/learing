@@ -27,3 +27,20 @@ cURL error 60
 * 配置到php.ini 'curl.cainfo ="C:\Runing\php\extras\ssl\cacert.pem"'
 * 重启服务器
 
+身份证验证
+'composer require ofcold/identity-card'
+
+```
+  //  返回false 或 Ofcold\IdentityCard\IdentityCard
+    $result = Ofcold\IdentityCard\IdentityCard::make('32010619831029081');
+
+    if ( $result === false ) {
+
+        return '您的身份证号码不正确';
+    }
+
+    print_r($result->toArray());
+
+```
+[https://laravel-china.org/topics/12468/identity-card-number-verification-and-identity-card-information-acquisition-in-mainland-china](https://laravel-china.org/topics/12468/identity-card-number-verification-and-identity-card-information-acquisition-in-mainland-china)
+
